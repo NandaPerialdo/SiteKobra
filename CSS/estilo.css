@@ -3,6 +3,12 @@ body{
     padding: 0%;
 }
 
+#topoAssinatura{
+    width: 60%;
+    margin: auto;
+    display: block;
+}
+
 li{
     list-style: none;
     font-weight: bold;
@@ -37,4 +43,173 @@ ul{
     background-color: #fff;
 }
 
+#breveDescricao{
+    height: 30%;
+    padding: 5%;
+    font-size: 25px;
+    text-align: justify;
+    background-color: #fff;
+    margin-top: 1%;
+    margin-bottom: 1%;
+}
 
+.galeria{
+    display: grid;
+    grid-template-columns: 32% 32% 32%;
+    grid-template-rows: auto;
+    grid-gap: 1%;
+}
+
+#gd1{
+    grid-column-start: 1;
+    grid-column-end: 1;
+    grid-row-start: 1;
+    grid-row-end: 1;
+    
+}
+
+#gd2{
+    grid-column-start: 2;
+    grid-column-end: 2;
+    grid-row-start: 1;
+    grid-row-end: 1;
+    
+}
+
+#gd3{
+    grid-column-start: 3;
+    grid-column-end: 3;
+    grid-row-start: 1;
+    grid-row-end: 1;
+    
+}
+
+/*Página Catálogo*/
+
+#tituloCatalogo{
+    height: 30%;
+    padding: 5%;
+    font-size: 20px;
+    text-align: justify;
+    background-color: #fff;
+    margin-top: 1%;
+    margin-bottom: 1%;
+}
+
+.catalogo{
+    display: grid;
+    grid-template-columns: 33% 33% 33%;
+    grid-template-rows: auto;
+    grid-gap: 1%;
+}
+
+#gd1{
+    grid-column-start: 1;
+    grid-column-end: 1;
+    grid-row-start: 1;
+    grid-row-end: 1;
+}
+
+#gd2{
+    grid-column-start: 2;
+    grid-column-end: 2;
+    grid-row-start: 1;
+    grid-row-end: 1;
+
+}
+
+#gd3{
+    grid-column-start: 3;
+    grid-column-end: 3;
+    grid-row-start: 1;
+    grid-row-end: 1;
+
+}
+
+#gd4{
+    grid-column-start: 1;
+    grid-column-end: 1;
+    grid-row-start: 2;
+    grid-row-end: 2;
+
+}
+
+#gd5{
+    grid-column-start: 2;
+    grid-column-end: 2;
+    grid-row-start: 2;
+    grid-row-end: 2;
+
+}
+
+#gd6{
+    grid-column-start: 3;
+    grid-column-end: 3;
+    grid-row-start: 2;
+    grid-row-end: 2;
+
+}
+
+/*Pagina Sobre*/
+
+.galeriaKobra{
+    display: grid;
+    grid-template-columns: 33% 33% 33%;
+    grid-template-rows: auto;
+    grid-gap: 1%;
+}
+
+#gd1{
+    grid-column-start: 1;
+    grid-column-end: 1;
+    grid-row-start: 1;
+    grid-row-end: 1;
+}
+
+#gd2{
+    grid-column-start: 2;
+    grid-column-end: 2;
+    grid-row-start: 1;
+    grid-row-end: 1;
+
+}
+
+#eduardoKobra{
+    height: 30%;
+    padding: 5%;
+    font-size: 20px;
+    text-align: justify;
+    background-color: #fff;
+    margin-top: 1%;
+    margin-bottom: 1%;
+}
+
+/*Pagina Contato*/
+
+#infoContato{
+    height: 30%;
+    padding: 5%;
+    font-size: 20px;
+    text-align: justify;
+    background-color: #fff;
+    margin-top: 1%;
+    margin-bottom: 1%;
+}
+
+#fechamento, #rodape{
+    height: 10%;
+    text-align: center;
+    margin-top: 1%;
+    font-size: 15px;
+    background-color: #fff;
+}
+
+/*Tela de Celular*/
+@media screen and (max-width: 767px){
+
+    body{
+        font-size: 10%; 
+    }   
+
+
+}
